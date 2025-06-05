@@ -1,4 +1,4 @@
-# Frotend #
+# Front-end #
 
 Steps to Run the Code:
 1. download the code.
@@ -6,7 +6,7 @@ Steps to Run the Code:
 3. Open the terminal and run the command: "npm Install" & After That "npm run dev"
 4. The application will start running in your browser.
 
-# Backend #
+# Back-end #
 
 Task API
 How to Run
