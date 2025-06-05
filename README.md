@@ -11,5 +11,7 @@ Steps to Run the Code:
 # Task API#
 
 ## How to Run
-npm install & 
-npm start
+npm install express & npm install
+after that 
+node ./server.js
+
