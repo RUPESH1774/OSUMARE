@@ -1,0 +1,35 @@
+Project Title: Task Management API using Express.js
+Objective:
+To build a RESTful API that allows users to manage tasks with CRUD functionality,
+ stored in memory without any database.
+
+Approach:
+
+Express.js used for fast and minimalist web server setup.
+
+Router and controller separation to keep logic modular.
+
+Tasks stored in a global array with an auto-incrementing ID.
+
+Validation is handled using a helper function.
+
+Pagination, sorting, and filtering are implemented for better querying.
+
+Algorithm Choices:
+
+Linear search (find, findIndex) is used for small in-memory arrays.
+
+Pagination uses slice(start, end) after calculating offset.
+
+Error Handling:
+
+Status codes: 200, 201, 400, 404, 500
+
+Basic global error middleware for unhandled errors.
+
+Testing Tools:
+
+Postman used for manual testing of all endpoints.
+
+Example curl commands provided in README.
+

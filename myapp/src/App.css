@@ -1,0 +1,167 @@
+.navbar {
+  text-align: right;
+}
+
+.logo img{
+ height: 32vh;
+ width: 30vh;
+margin: -60px; 
+}
+ul{
+  list-style: none;
+}
+li{
+  cursor: pointer;
+}
+.Login-sign button{
+  width: 120px;
+  padding: 5px;
+}
+.start-learn button{
+  width: 120px;
+  padding: 7px;
+}
+.Organize h2{
+  font-weight: 400;
+  color: #FF9EA9;
+}
+.Organize{
+  background-color: #FF3E54;
+  padding: 20px;
+}
+.img {
+  /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(94, 88, 88, 0.7)), url('https://media.istockphoto.com/id/531547724/photo/casual-man-on-white.jpg?s=612x612&w=0&k=20&c=sXxvHdgDpRKZ2yc71sZsIw-mE_SDqKRM_VIfSQcLofU='); */
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(158, 158, 158, 0.7)), url(assets/0fcf14cd9678618fb95db52abb2188dccc20bffa.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  width: 27vw;
+ zoom: 100%;
+  padding: 30px;
+  border-radius: 20px;
+}
+.img h3{
+  color: #ddbbaf;
+  margin-left: -30px;
+  margin-top: -20px;
+}
+.down{
+  margin-top: 37vh;
+  margin-left: -20px;
+}
+.down h4{
+  color: #F7F7FB;
+  font-size: 20px;
+  font-weight:400;
+}
+.down h2{
+  color: #000000;
+  font-size: 20px;
+}
+.down p{
+  color: #000000;
+  font-size: 14px;
+}
+
+/*  */
+main{
+  background-color: #F7F7FB;
+  padding: 25px;
+}
+.main button{
+  background: rgba(216, 175, 175, 0.219);
+  border: none;
+  padding: 13px;
+  border-radius: 20px;
+}
+.last{
+  color: #716C90;
+}
+.boss{
+  position: relative;
+}
+.red{
+  border: 7px solid red;
+  width: 50vh;
+  height: 60vh;
+  border-right: none;
+  
+  
+  }
+
+.slider{
+  background-color: #f0e0e01c;
+  padding: 20px; 
+  margin-left: -40vh;
+  
+}
+.images{
+  border: 7px solid red ;
+  padding: 10px;
+  height: 45vh;
+  border-left: none;
+}
+.box{
+  margin-top: 14px;
+  width: 5vh;
+  height: 5vh;
+  background-color: red;
+}
+.Arrowbutton .button1{
+  border-radius: 50px;
+  border: 2px solid #FF3E54;
+  height: 7vh;
+  width: 7vh;
+
+}
+.Arrowbutton .button2{
+  background-color: #FF3E54;
+  color: wheat;
+  height: 7vh;
+  border-radius: 50px;
+  border: none;
+  width: 7vh;
+}
+/*  */
+.sign-learn button{ 
+  height: 8vh;
+  width: 25vh;
+  background-color: #FF3E54;
+  padding: 5px;
+}
+.allflexes{
+  margin-top: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.input input{
+  width: 250px;
+  height: 5vh;
+}
+.input button{
+  background-color: #FF3E54;
+  color: #F7F7FB;
+  border: none;
+  width: 70px;
+  padding:8px;
+  border-radius: 6px;
+}
+.first p{
+  font-size: 13px;
+}
+.final{
+  font-weight: 400;
+}
+@media (max-width:700px) {
+  .img{
+    width: 50vw;
+  }
+}
+@media screen and (max-width:400px) and (min-width:0px) {
+  .form{
+    text-align: center;
+  }
+  .backend{
+    margin-left: 130px;
+  }
+}

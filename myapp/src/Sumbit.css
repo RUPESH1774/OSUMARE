@@ -1,0 +1,15 @@
+.backend{
+    background-color: #FFEEF0;
+    margin: auto 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.backend button{
+    text-align: center;
+    background-color:#FF3E54 ;
+    width: 70%;
+    color: #FFEEF0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
